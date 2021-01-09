@@ -62,3 +62,11 @@ for e in range(testCase):
 for e in result:
     print(e)
 ```
+
+3. GCD(최대공약수)와 LCD(최소공약수)의 관계
+***
+![img](https://blogfiles.pstatic.net/MjAxNzAzMjVfNiAg/MDAxNDkwMzcxNjU3OTUz.w4j4OoKSirmLGJxMzWAnVxdJ73O9NFvdw6A3b0Lxr4Ug.TtUov3YI4h4vXGRTfSpYEQhfyYWC84KIluR8-J7W8Tog.PNG.bjsnight/image.png?type=w1)
+
+우선 사진을 보자. 이 식은 A,B의 최대 공약수를 구하기 위한 식이다. 결론적으로 더이상 나누어 지지 않은 상태에서 a,b는 서로 서로소 상태이다.(서로소란 두 수 사이 공약수가 1밖에 없는 쌍을 의미한다) 결론적으로 A = G * a 가 되고 B = G * b가 된다.그리고 추가적으로 LCD(최소공약수)는 G * a * b가 된다.(L = G * a * b)
+
+식을 하나 보면 A * B = G * a * G * b 로 풀어쓸수 있고 식을 한번더 정리해보면 A * B = G * L이 되는것이다. 즉 두 수를 곱한것은 두수의 최대공배수 * 최소공배수가 되는것이다
