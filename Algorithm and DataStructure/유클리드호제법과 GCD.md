@@ -63,7 +63,7 @@ for e in result:
     print(e)
 ```
 
-3. GCD(최대공약수)와 LCD(최소공약수)의 관계
+3. GCD(최대공약수, Greatest Common Divisor)와 LCM(최소공약수, Least Common Multiple)의 관계
 ***
 ![img](https://blogfiles.pstatic.net/MjAxNzAzMjVfNiAg/MDAxNDkwMzcxNjU3OTUz.w4j4OoKSirmLGJxMzWAnVxdJ73O9NFvdw6A3b0Lxr4Ug.TtUov3YI4h4vXGRTfSpYEQhfyYWC84KIluR8-J7W8Tog.PNG.bjsnight/image.png?type=w1)
 
